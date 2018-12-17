@@ -667,6 +667,102 @@ footer .footer-contact-info li i {
 	color: #909090;
 }
 
+.merchandise .row [class*="col-"] {
+ padding: 4px 5px;
+}
+	
+	
+.merchandise .merchandise_grid {
+ display:inline-block;
+}
+.merchandise .merchandise_grid a{
+ display:inline-block;
+ white-space:inherit;
+ position:relative;
+ line-height: 0;
+}
+
+.merchandise .merchandise_grid a:hover span{
+	position:absolute;
+	left:0;
+	top:0;
+	content:'';
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.5); 
+	transition: all 0.2s linear;
+}
+
+p{
+	margin-bottom:15px;
+	display:block;
+}
+h2 {
+	text-align: left;
+	z-index:999;
+	font-size: 34px;
+	line-height: unset;
+	color: #222;
+	margin-top:0;
+	margin-bottom:15px;
+	letter-spacing:normal
+}
+
+.form {
+    background: #fff;
+    box-shadow: 0 0 5px 0 rgba(67, 67, 67, 0.15);
+    padding: 40px;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.form .form-group {
+    margin-bottom: 1rem;
+}
+.form label {
+    color: #8995a2;
+    font-weight: 600;
+	display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form .form-control {
+	height: 50px;
+	border: 1px solid #dde6ef;
+	background: #fbfdff;
+	font-size: 15px;
+	color: #8995a2;
+	font-weight: 500;
+	padding: 12px;
+	display: block;
+    width: 100%;
+}
+.form textarea.form-control {
+    height: auto !important;
+}
+
+.form input[type="submit"],
+.form button {
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 500;
+	color: #fff;
+	background-color: #ff4e00;
+	border: 1px solid #ff4e00;
+	border-radius: 0;
+	text-align: center;
+    white-space: nowrap;
+	cursor: pointer;
+	line-height: 1.5;
+	display: inline-block;
+	transition: all 0.2s linear;
+}
+.form input[type="submit"]:hover,
+.form button:hover{
+	background-color: transparent;
+    color: #ff4e00;
+    border-color: #ff4e00;
+}
 
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
